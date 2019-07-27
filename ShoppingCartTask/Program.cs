@@ -46,6 +46,18 @@ namespace ShoppingCartTask
             Console.Write("Please enter the quantity (in number) for Oranges: ");
             oranges = Console.ReadLine();
 
+            // verifying if the input is valid
+            try
+            {
+                n = int.Parse(oranges);
+            }
+            catch
+            {
+                Console.WriteLine("Please Enter a valid numerical value!");
+                Console.Write("\nPlease enter the quantity (in number) for Oranges: ");
+                oranges = Convert.ToString(int.Parse(Console.ReadLine()));
+            }
+
             appleTotal = 0.60m * Convert.ToDecimal(apples);
             orangeTotal = 0.25m * Convert.ToDecimal(oranges);
 
