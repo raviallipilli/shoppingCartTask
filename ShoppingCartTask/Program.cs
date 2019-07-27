@@ -89,11 +89,12 @@ namespace ShoppingCartTask
 
             totalAfterOffer = Convert.ToDecimal(appleTotal) + Convert.ToDecimal(orangeTotal);
 
-
-
             Console.Write("\nThank you for shopping with us: ");
-            Console.WriteLine("\nYour Total cost : " + "£" + totalBeforeOffer);
-            Console.WriteLine("\nYour Final cost : " + "£" + totalAfterOffer);
+            Console.WriteLine("\nBill Summary");
+            Console.WriteLine("\nApples :" + "£" + appleTotal);
+            Console.WriteLine("\nOranges :" + "£" + orangeTotal);
+            Console.WriteLine("\nYour actual cost:     " + "£" + totalBeforeOffer);
+            Console.WriteLine("\nYour final bill :     " + "£" + totalAfterOffer);
 
         }
     }
