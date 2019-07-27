@@ -17,6 +17,7 @@ namespace ShoppingCartTask
             decimal totalAfterOffer;
             decimal appleTotal;
             decimal orangeTotal;
+            int items;
 
             //User inputs
             Console.WriteLine("Welcome to Fruit Shop");
@@ -87,14 +88,16 @@ namespace ShoppingCartTask
                 orangeTotal = 0.25m * Convert.ToDecimal(orangeTotal);
             }
 
+            items = Convert.ToInt32(apples) + Convert.ToInt32(oranges);
             totalAfterOffer = Convert.ToDecimal(appleTotal) + Convert.ToDecimal(orangeTotal);
 
             Console.Write("\nThank you for shopping with us: ");
-            Console.WriteLine("\nBill Summary");
-            Console.WriteLine("\nApples :" + "£" + appleTotal);
-            Console.WriteLine("\nOranges :" + "£" + orangeTotal);
-            Console.WriteLine("\nYour actual cost:     " + "£" + totalBeforeOffer);
-            Console.WriteLine("\nYour final bill :     " + "£" + totalAfterOffer);
+            Console.WriteLine("\n----------------------------------------------------->Bill Summary: <--------------------------------------------------- ");
+            Console.WriteLine("\n--------------------->Number of Items: <------------------  :" + "x" + items);
+            Console.WriteLine("\n--------------------->Apples: <---------------------------- :" + "x" + apples + "   " + "£" + appleTotal);
+            Console.WriteLine("\n--------------------->Oranges: <--------------------------- :" + "x" + oranges + "   " + "£" + orangeTotal);
+            Console.WriteLine("\n--------------------->Your actual cost: <------------------ :     " + "£" + totalBeforeOffer);
+            Console.WriteLine("\n--------------------->Your final bill: <------------------- :     " + "£" + totalAfterOffer);
 
         }
     }
