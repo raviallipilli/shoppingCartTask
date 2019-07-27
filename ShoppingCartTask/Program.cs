@@ -49,7 +49,20 @@ namespace ShoppingCartTask
                 appleTotal = 0.60m * Convert.ToDecimal(appleTotal);
             }
 
+            // 3 for a price of 2
+            if (Convert.ToDecimal(oranges) % 3 == 0)
+            {
+                orangeTotal = Convert.ToDecimal(oranges) - (Convert.ToDecimal(oranges) / 3);
+                orangeTotal = 0.25m * Convert.ToDecimal(orangeTotal);
+            }
+            else
+            {
+                orangeTotal = (Convert.ToInt32(oranges) - (Convert.ToInt32(oranges) / 3));
+                orangeTotal = 0.25m * Convert.ToDecimal(orangeTotal);
+            }
+
             totalAfterOffer = Convert.ToDecimal(appleTotal) + Convert.ToDecimal(orangeTotal);
+
 
 
             Console.Write("\nThank you for shopping with us: ");
