@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucky\\Source\\Repos\\ShoppingCartTask\\ShoppingCartTask\\ShoppingCartTask.csproj",
+      "projectUniqueName": "C:\\shoppingCartTask\\ShoppingCartTask\\ShoppingCartTask.csproj",
       "projectName": "ShoppingCartTask",
-      "projectPath": "C:\\Users\\lucky\\Source\\Repos\\ShoppingCartTask\\ShoppingCartTask\\ShoppingCartTask.csproj",
+      "projectPath": "C:\\shoppingCartTask\\ShoppingCartTask\\ShoppingCartTask.csproj",
       "packagesPath": "C:\\Users\\lucky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucky\\Source\\Repos\\ShoppingCartTask\\ShoppingCartTask\\obj\\",
+      "outputPath": "C:\\shoppingCartTask\\ShoppingCartTask\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

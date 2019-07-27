@@ -13,7 +13,8 @@ namespace ShoppingCartTask
         {
             string apples;
             string oranges;
-            decimal total;
+            decimal totalBeforeOffer;
+            decimal totalAfterOffer;
             decimal appleTotal;
             decimal orangeTotal;
 
@@ -34,10 +35,27 @@ namespace ShoppingCartTask
             appleTotal = 0.60m * Convert.ToDecimal(apples);
             orangeTotal = 0.25m * Convert.ToDecimal(oranges);
 
-            total = Convert.ToDecimal(appleTotal) + Convert.ToDecimal(orangeTotal);
+            totalBeforeOffer = Convert.ToDecimal(appleTotal) + Convert.ToDecimal(orangeTotal);
+
+            // buy ine get ine free
+            if (Convert.ToDecimal(apples) % 2 == 0)
+            {
+                appleTotal = Convert.ToDecimal(apples) / 2;
+                appleTotal = 0.60m * Convert.ToDecimal(appleTotal);
+            }
+            else
+            {
+                appleTotal = (Convert.ToInt32(apples) / 2) + (Convert.ToInt32(apples) % 2);
+                appleTotal = 0.60m * Convert.ToDecimal(appleTotal);
+            }
+
+            totalAfterOffer = Convert.ToDecimal(appleTotal) + Convert.ToDecimal(orangeTotal);
+
 
             Console.Write("\nThank you for shopping with us: ");
-            Console.WriteLine("\nYour Total cost : " + "£" + total);
+            Console.WriteLine("\nYour Total cost : " + "£" + totalBeforeOffer);
+            Console.WriteLine("\nYour Final cost : " + "£" + totalAfterOffer);
+
         }
     }
 }
