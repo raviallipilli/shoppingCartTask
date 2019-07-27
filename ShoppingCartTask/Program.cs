@@ -28,6 +28,20 @@ namespace ShoppingCartTask
             Console.Write("Please enter the quantity (in number) for Apples: ");
             apples = Console.ReadLine();
 
+            int n = 0;
+
+            // verifying if the input is valid
+            try
+            {
+                n = int.Parse(apples);
+            }
+            catch
+            {
+                Console.WriteLine("Please Enter a valid numerical value!");
+                Console.Write("\nPlease enter the quantity (in number) for Apples: ");
+                apples = Convert.ToString(int.Parse(Console.ReadLine()));
+            }
+
             // enter oranges
             Console.Write("Please enter the quantity (in number) for Oranges: ");
             oranges = Console.ReadLine();
