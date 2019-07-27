@@ -1,0 +1,11 @@
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\bin\Debug\netcoreapp2.1\ShoppingCartTask.deps.json
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\bin\Debug\netcoreapp2.1\ShoppingCartTask.runtimeconfig.json
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\bin\Debug\netcoreapp2.1\ShoppingCartTask.runtimeconfig.dev.json
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\bin\Debug\netcoreapp2.1\ShoppingCartTask.dll
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\bin\Debug\netcoreapp2.1\ShoppingCartTask.pdb
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\obj\Debug\netcoreapp2.1\ShoppingCartTask.csproj.CoreCompileInputs.cache
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\obj\Debug\netcoreapp2.1\ShoppingCartTask.AssemblyInfoInputs.cache
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\obj\Debug\netcoreapp2.1\ShoppingCartTask.AssemblyInfo.cs
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\obj\Debug\netcoreapp2.1\ShoppingCartTask.dll
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\obj\Debug\netcoreapp2.1\ShoppingCartTask.pdb
+C:\Users\lucky\Source\Repos\ShoppingCartTask\ShoppingCartTask\obj\Debug\netcoreapp2.1\ShoppingCartTask.csprojAssemblyReference.cache
